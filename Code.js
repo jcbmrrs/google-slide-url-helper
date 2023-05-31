@@ -4,6 +4,8 @@ let carboncopy = [];
 let emailLinks = "";
 let slideURL = "";
 let pretext = "";
+let author = "XXX";
+let formURL = "";
 
 // Function triggered by an event
 function myFunction(e) {
@@ -175,6 +177,11 @@ function getLinksFromSlides(slideURL, primeEmail, carboncopy) {
     to: primeEmail,
     cc: goodCC,
     subject: "Links from: " + prezTitle,
-    htmlBody: "<h3>This message was sent to you by " + primeEmail + " from Jacob's <a href=\"https://forms.gle/5NoXZgSNEhEz85iU6\">Google Slide URL Extraction Tool</a></h3>" + pretext + "Links from <a href=" + slideURL + "\">" + prezTitle + "</a><br><br>Use these links to share in the chat window:<br><br>" + emailLinks
+    htmlBody: "<h3>This message was sent to you by " 
+      + primeEmail + " from " 
+      + author + "'s <a href=\"" + formURL + "\">Google Slide URL Extraction Tool</a></h3>" 
+      + pretext + "Links from <a href=" + slideURL + "\">" 
+      + prezTitle + "</a><br><br>Use these links to share in the chat window:<br><br>" 
+      + emailLinks
   });
 }
