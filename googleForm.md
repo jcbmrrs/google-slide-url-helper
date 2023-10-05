@@ -9,7 +9,7 @@ CCs are optional to send the email with links to other people.
 *! ONLY WORKS WITH GOOGLE SLIDES !*
 
 ## Slide URL (*required)
-Slides must be accessible by my UW Google Account in order for this script to work. Be sure "google account email" is able to access these slides by reviewing the "Share" feature.
+Slides must be accessible by my Google Account in order for this script to work. Be sure "*google account email*" is able to access these slides by reviewing the "Share" feature.
 
 [ Short Answer Text - URL Validated ]
 
